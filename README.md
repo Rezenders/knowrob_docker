@@ -1,3 +1,4 @@
+[![Docker](https://github.com/Rezenders/knowrob_docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/Rezenders/knowrob_docker/actions/workflows/docker-publish.yml)
 # knowrob_docker
 Dockerfile for KnowRob with Ubuntu 20.04 and ROS noetic.
 
