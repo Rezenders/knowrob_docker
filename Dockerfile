@@ -17,6 +17,7 @@ RUN apt update && apt install -y \
   python3-catkin-pkg \
   python3-vcstool \
   python3-rosdep \
+  python-is-python3 \
   ros-noetic-catkin \
   wget \
   git \
