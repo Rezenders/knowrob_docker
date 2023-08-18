@@ -37,7 +37,7 @@ RUN apt update && apt install -y \
 
 RUN mkdir -p /knowrob_ws/src
 WORKDIR /knowrob_ws/src
-RUN ["/bin/bash", "-c", "git clone -b master https://github.com/knowrob/knowrob.git"]
+RUN ["/bin/bash", "-c", "git clone -b modal https://github.com/knowrob/knowrob.git"]
 RUN ["/bin/bash", "-c", "git clone https://github.com/knowrob/rosprolog.git \
   && git clone https://github.com/code-iai/iai_common_msgs.git"]
 
