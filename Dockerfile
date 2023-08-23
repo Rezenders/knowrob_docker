@@ -14,6 +14,7 @@ RUN apt update && apt install -y \
   libraptor2-dev \
   libfmt-dev \
   software-properties-common \
+  python3-catkin-tools \
   python3-catkin-pkg \
   python3-vcstool \
   python3-rosdep \
