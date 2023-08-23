@@ -52,7 +52,7 @@ RUN ["/bin/bash", "-c", "source /opt/ros/noetic/setup.bash \
     && rm -rf /var/lib/apt/lists/"]
 
 RUN ["/bin/bash", "-c", "source /opt/ros/noetic/setup.bash && \
-    catkin_make"]
+    catkin build"]
 
 COPY knowrob_entrypoint.sh /knowrob_entrypoint.sh
 ENTRYPOINT ["/knowrob_entrypoint.sh"]
